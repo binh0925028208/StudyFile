@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+header .titleHeader {
+    color: #c8503c;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+header .addTodo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+}
+
+header .addTodo .inputTodo {
+    background-color: #232933;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 20px;
+    width: 80%;
+}
+
+header .addTodo .inputTodo::placeholder {
+    color: #435464;
+}
+
+header .addTodo .btnTodo {
+    background-color: #a9ddf8;
+    color: #000;
+    padding: 13px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+}

@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding: 10px 150px;
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.headerNav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    color: #4F5665;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.headerLogin {
+    display: flex;
+    color: #0B132A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 00;
+    line-height: normal;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerLogin button {
+    width: 150px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid #F53855;
+    background-color: transparent;
+    color: #F53855;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.headerLogin button:hover {
+    background-color: #F53855;
+    color: white;
+}

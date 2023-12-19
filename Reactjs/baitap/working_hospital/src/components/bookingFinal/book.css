@@ -1,0 +1,117 @@
+.navBtn {
+    display: flex;
+    gap: 120px;
+    padding: 0px 36px;
+    border-bottom: 1px solid #D9D9D9;
+    height: 55px;
+    background-color: #F1F5F9;
+
+}
+
+.navBtnDetail {
+    color: #4B5563;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    background-color: transparent;
+    padding: 12px 0;
+}
+
+.navBtnDetail button {
+    height: 100%;
+}
+
+.navBtnDetail:hover {
+    color: #0284C7;
+    border-bottom: 4px solid #0284C7;
+}
+
+.appoBox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+
+.appoBoxDetail {
+    display: flex;
+    width: 1141px;
+    padding: var(--Radius-rounded-2xl, 16px);
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: var(--Radius-rounded-lg, 8px);
+    background: #FFF;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2)
+}
+
+.appoDentist {
+    display: flex;
+    gap: 20px;
+    color: var(--Color-Slate-600, #475569);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.dentistAvatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: var(--Radius-rounded-None, 50px);
+}
+
+.appoDentist h3 {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.appoData {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.appoTime {
+    display: flex;
+    padding: var(--Radius-rounded, 4px) var(--Radius-rounded-xl, 12px);
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: var(--Radius-rounded-lg, 8px);
+    border: var(--Radius-rounded-None, 1px) solid var(--Color-Green-200, #BBF7D0);
+    background: var(--Color-Green-100, #DCFCE7);
+}
+
+.appoBtn {
+    display: flex;
+    gap: 20px;
+}
+
+.appoBtn button {
+    display: flex;
+    padding: var(--Radius-rounded-lg, 8px) var(--Radius-rounded-2xl, 16px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: var(--Radius-rounded-lg, 8px);
+
+}
+
+.cancelBtn {
+    background-color: transparent;
+    border: 1px solid #ddd;
+}
+
+.RescheduleBtn {
+    background-color: #0284C7;
+    color: #FFF;
+}
+
+.appoBtn button:hover {
+    background-color: #b7b7b7;
+    color: #FFF;
+}

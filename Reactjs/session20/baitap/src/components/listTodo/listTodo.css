@@ -1,0 +1,58 @@
+.listTodoGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.listTodoGroup .content {
+    border: 2px solid #fff;
+    padding: 25px;
+    width: 500px;
+    height: auto;
+    max-height: 800px;
+    overflow-y: scroll;
+    border-radius: 20px;
+}
+
+.listTodoGroup .content .todo {
+    margin-top: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding: 12px 5px;
+}
+
+.listTodoGroup .content .todo:last-child {
+    border: none;
+}
+
+.listTodoGroup .content .todo .actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.listTodoGroup .content .todo .actions * {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.listTodoGroup .content .todo .actions *:hover {
+    transform: scale(1.09);
+}
+
+.listTodoGroup .delete {
+    color: red;
+    background-color: #2c313c;
+    padding: 20px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+}
