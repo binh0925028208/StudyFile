@@ -1,0 +1,9 @@
+.head {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+
+}
+section, footer {
+    text-align: center;
+}

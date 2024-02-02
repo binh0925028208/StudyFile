@@ -1,0 +1,34 @@
+.dentist {
+    padding: 24px 36px;
+    background-color: #F1F5F9;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: auto;
+}
+
+.dentistList {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.dentistListDetail {
+    display: flex;
+    gap: 32px;
+    flex-flow: row wrap;
+}
+
+.dentistPerson {
+    width: 180px;
+    height: 220px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dentistName {
+    padding: 5px;
+}

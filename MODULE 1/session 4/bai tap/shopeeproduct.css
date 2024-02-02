@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-family: sans-serif;
+    overflow-x: hidden;
+    padding: 20px 138px 70px 138px;
+    background-color: #F5F5F5;
+
+}
+
+.product {
+    background-color: #fafafa;
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    float: right;
+}
+
+.product1-img {
+    background-color: #fafafa;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    float: left;
+}
+
+.product1-img-head img {
+    width: 450px;
+    height: 450px;
+}
+
+.product1-img-mini img {
+    width: 82px;
+    height: 82px;
+}
+
+.product1-detail div {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.product1-price li {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.product1-voucher div {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.product1-shipping div {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.product1-ratting a {
+    color: #EE4D2D;
+}
+
+.product1-buy-cart {
+    width: 199px;
+    height: 48px;
+    border: 1px solid #EE4D2D;
+    background-color: #FFF5F1;
+    color: #EE4D2D;
+}
+
+.product1-buy-now {
+    width: 199px;
+    height: 48px;
+    border: 0px;
+    background-color: #F05D40;
+    color: #FFF5F1;
+}
+
+.product1-protect a {
+    color: black;
+}
+
+.product1-protect2 {
+    padding-left: 20px;
+}
+
+.product1-price-cross {
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: #929292;
+}
+
+.product1-price-now {
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: #ee4d2d;
+}
+
+.product1-price-discount {
+    margin-left: 15px;
+    font-size: .75rem;
+    color: #fff;
+    background: #ee4d2d;
+    border-radius: 2px;
+    padding: 2px 4px;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.product1-voucher-discount {
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    background: rgba(208, 1, 27, .08);
+    padding: 3px 7px;
+    border: 0;
+    white-space: nowrap;
+    color: #ee4d2d;
+}
+
+.product1-quantity div {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.product1-color div {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.product1-quantity-btn {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.product1-quantity-allbutton {
+    margin-left: 20px;
+}
+
+.product1-allcolor {
+    margin-left: 30px;
+}
+
+.product1-color1 {
+    margin-left: 30px;
+    width: 50px;
+    height: 30px;
+}

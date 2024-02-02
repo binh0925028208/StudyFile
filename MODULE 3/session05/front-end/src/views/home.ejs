@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="home.css" />
+<%- include('header'); -%>
+<body class="bodyRatting">
+  <div class="ratting">
+    <div class="rattingTitle">
+      <h2>Thầy dạy có hay không ?</h2>
+      <div class="rattingBtn">
+        <% for(let i=1;i<11;i++){ %><button class="rateBtn"><%= i %></button><%
+        } %>
+      </div>
+      <div class="rattingCmt">
+        <input type="text" placeholder="write here..." />
+        <button class="sendBtn">send</button>
+      </div>
+    </div>
+  </div>
+  <ul class="rateUserCmt">
+    <% comment.forEach(element => { %>
+    <li class="cmtRate">
+      <div class="numberRate"><%= element.rate %></div>
+      <div class="cmtUser">
+        <p><%= element.comment %></p>
+        <button onclick="editCmt(element.id)">edit</button>
+        <button onclick="deleteCmt(element.id)">delete</button>
+      </div>
+    </li>
+    <% }) %>
+  </ul>
+</body>
+<script></script>

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #E4E8F0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+input,
+button {
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,29 @@
+.grid {
+    background-color: blanchedalmond;
+    height: 400px;
+    grid-template-columns: 100px 300px 200px;
+    display: grid;
+    gap: 20px
+}
+
+.grid div {
+    background-color: aquamarine;
+    border: 1px solid;
+}
+
+.grid1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.grid2 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.grid5 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Translation App</title>
+    <link rel="stylesheet" href="bandich.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input
+        type="text"
+        id="vietnameseInput"
+        placeholder="Nhập từ tiếng Việt"
+      />
+      <button onclick="translate()">Dịch</button>
+      <div id="translationResult"></div>
+      <div id="editTranslationForm" style="display: none">
+        <input type="text" id="vietnameseEdit" placeholder="Từ tiếng Việt" />
+        <input type="text" id="englishEdit" placeholder="Từ tiếng Anh" />
+        <button onclick="addTranslation()">Thêm/Sửa</button>
+      </div>
+      <button onclick="toggleEditForm()" id="toggleBtn">
+        Mở thêm/sửa bản dịch
+      </button>
+    </div>
+
+    <script src="./bandich.js"></script>
+  </body>
+</html>

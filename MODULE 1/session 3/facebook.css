@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+.login
+{
+     background-color:#3A5795;
+     width: fit-content;
+     height: fit-content;
+   
+   }
+.info {
+    background-color: #E8EAF3;
+    width: fit-content;
+    height: fit-content;
+}
+a { text-decoration: none;
+
+}
+.button {
+    background-color: #5D9649;
+}
+.ema {
+    color: #fff;
+    font-size: 13;
+}
+.pass { color: #fff;
+font-size: 13;}

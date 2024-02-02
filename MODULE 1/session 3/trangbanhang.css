@@ -1,0 +1,111 @@
+a {
+  text-decoration: none;
+}
+
+.head.option {
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+  font-weight: 50px;
+  font-size: 60px;
+  height: 30px;
+}
+
+.option {
+  background-color: #00937D;
+  color: #333;
+  padding: 50px;
+  text-align: center;
+  font-weight: 10px;
+  font-size: 40px;
+  height: 10px;
+
+}
+
+.sidehead {
+  background-color: rgb(84, 6, 240);
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+  font-weight: 30px;
+  font-size: 30px;
+  height: 30px;
+}
+
+.product {
+  background-color: #f8cd5f;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  font-weight: 10px;
+  font-size: 20px;
+  height: 10px;
+}
+
+.code {
+  background-color: bisque;
+}
+
+.name {
+  background-color: rgb(199, 39, 151);
+  color: #fff;
+  text-align: center;
+}
+
+.detail {
+  background-color: aquamarine;
+  color: #333;
+  text-align: center;
+}
+
+.price {
+  background-color: rgb(36, 230, 84);
+  color: #333;
+  text-align: center;
+}
+
+.quantity {
+  background-color: rgb(234, 45, 27);
+  color: #ffffff;
+  text-align: center;
+}
+
+.admin {
+  background-color: #43dde8;
+  color: #918787;
+  padding: 20px;
+  text-align: center;
+  font-weight: 10px;
+  font-size: 20px;
+  height: 10px;
+}
+
+.button {
+  background-color: #0ada9f;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  ;
+  font-size: 20px;
+  ;
+}
+
+.info {
+  background-color: #1589b7;
+  color: #6f6565;
+  padding: 10px;
+  text-align: center;
+  font-weight: 10px;
+  font-size: 30px;
+  ;
+}
+
+.footer {
+  background-color: #f8e962
+}
+
+.button:hover,
+.option :hover {
+  box-shadow: 10px 10px #888888;
+}

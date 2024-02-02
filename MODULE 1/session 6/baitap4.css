@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-big {
+    background-color: bisque;
+    display: grid;
+    width: 550px;
+    height: 700px;
+    gap: 1px;
+    position: relative;
+
+}
+
+
+.grid-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(https://tabmohinh.com/wp-content/uploads/2019/10/Banner_Gundam2-43dbcca246010bd07a2a8c9dbb86d7ef-1400x541.jpg);
+    width: 100%;
+    color: aliceblue;
+
+}
+
+.grid-2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    background-color: aqua;
+    position: relative;
+    background-image: url(https://herogame.vn/upload/images/img_08_06_2023/mo-hinh-gundam-mg-1-100-gn-001-gundam-exia---bandai---gdmg0009-1_259252_6481537f194ec4.65625228.jpg);
+}
+
+.grid-2 div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6 {
+    background-image: url(https://herogame.vn/upload/images/img_08_06_2023/mo-hinh-gundam-mg-1-100-gn-001-gundam-exia---bandai---gdmg0009-1_259252_6481537f194ec4.65625228.jpg);
+}
+
+.grid-6 {
+    position: relative;
+}
+
+.f .grid-5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background-color: rgb(34, 189, 49);
+}

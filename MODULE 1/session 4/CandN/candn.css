@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+.head {
+    background-image: url(https://learn-html-css.my.canva.site/images/6f8830929301eefca5368877cf0aa28a.jpg?utm_source=zalo&utm_medium=zalo&utm_campaign=zalo);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 730px;
+    color: aliceblue;
+    text-align: left;
+    padding-left: 170px;
+    padding-top: 90px;
+}
+
+.head-candn {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.head-paragraph {
+    font-size: 100px;
+    font-weight: 500px;
+    padding-top: 100px;
+}
+
+.head-btn {
+    padding-top: 30px;
+}
+
+.head-btn-paragraph {
+    background-color: #96611D;
+    width: 180px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 600px;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.head-candn a {
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.head-candn:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+
+/* head title */
+
+.design {
+    background-color: #2D2016;
+    background-size: cover;
+    height: 730px;
+    color: aliceblue;
+    padding: 100px 160px;
+}
+
+.design-head {
+    float: left;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.design-head-img {
+    float: right;
+}
+
+.design-head-text {
+    width: 500px;
+    line-height: 25px;
+    -webkit-line-clamp: 7;
+    height: 75px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #A69E9B;
+    margin-top: 30px;
+}
+
+.design-head-title {
+    font-size: 60px;
+}
+
+/* desgin banner */
+.product {
+    background-color: #2D1B0E;
+    background-size: cover;
+    min-height: 600px;
+    color: aliceblue;
+    padding: 100px 0px 100px 160px;
+}
+
+.product-head {
+    float: left;
+    display: inl;
+}
+
+.product-btn-paragraph {
+    background-color: #96611D;
+    width: 180px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 600px;
+    text-align: center;
+    padding-top: 18px;
+    margin-top: 30px;
+}
+
+.product-img-product {
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    cursor: pointer;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.product-head-title {
+    font-size: 60px;
+}
+
+.product-img {
+    padding-right: 50px;
+    margin-right: 100px;
+    font-size: 20px;
+    color: #cbbfbf;
+    transform: translateX(80px);
+}
+
+.product-img img {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.product-img img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+h4 {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+/* product */
+.fav {
+    background-color: #2D2016;
+    background-size: cover;
+    min-height: 600px;
+    color: aliceblue;
+    padding: 100px 0px 100px 160px;
+}
+
+.fav figure {
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    text-overflow: ellipsis;
+    transition: 0.5s;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 30px;
+    vertical-align: top;
+}
+
+.fav figure img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fav figure figcaption {
+    margin-top: 15px;
+    display: -webkit-box;
+    line-height: 1.3;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fav figure:not(:last-child) {
+    margin-right: 15px;
+}
+
+.fav figure:hover {
+    transform: scale(1.05);
+}
+
+h4 {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.fav-head {
+    font-size: 50px;
+}
+
+/*fav */
+.info {
+    background-image: url(https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/393215946_3550265228623600_6392592854631132678_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=BrD0U4RKWhcAX9Umope&_nc_ht=scontent.fdad2-1.fna&_nc_e2o=f&oh=00_AfBMS4Zj11drjY0vAbPjoCBG8FvSRcMBppzWyoMRJfygiw&oe=6532C178);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    color: aliceblue;
+    padding: 100px 0px 100px 160px;
+}
+
+.info-head {
+    font-size: 60px;
+}
+
+.info-text {
+    display: inline-block;
+    width: 380px;
+    height: 200px;
+    cursor: pointer;
+    text-align: left;
+    padding-top: 60px;
+    margin-right: 50px;
+
+}
+
+.info-text p {
+    word-wrap: break-word;
+    font-size: 25px;
+    color: #cbbfbf;
+    margin: 10px, 10px;
+}
+
+/* info */
+footer {
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+    width: 100%;
+}
+
+.footer-design {
+    text-align: right;
+
+}

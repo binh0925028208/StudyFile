@@ -1,0 +1,164 @@
+html {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.img_pic img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.img_pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.img_btn button {
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: #ddd;
+}
+
+.img_minipic img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.img_minipic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.active {
+    border: 5px solid rgb(25, 242, 22);
+    opacity: 0.5;
+}
+
+/* --------------------------------- */
+.modalbox {
+    background-color: #ddd;
+    display: flex;
+    width: 500px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#modal {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+}
+
+.modalbox {
+    position: absolute;
+    top: 40%;
+    right: 30%;
+}
+
+.modalbox button {
+    position: absolute;
+    top: 10px;
+    right: 20px
+}
+
+.allBox {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+}
+
+#background {
+    width: 350px;
+    height: 200px;
+    background-color: #ddd;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+#tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.todolist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background-color: #ddd;
+    height: 100px;
+    gap: 10px;
+}
+
+.todo_detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: cadetblue;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+.todo_detail p {
+    width: 250px;
+}

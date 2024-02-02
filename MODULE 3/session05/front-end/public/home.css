@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.bodyRatting {
+    background-color: #1D1C38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ratting {
+    background-color: white;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 250px;
+}
+
+.rattingTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.rattingBt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rateBtn {
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #ddd;
+    color: palevioletred;
+    cursor: pointer;
+}
+
+.rattingBtn button:hover,
+.rattingCmt button:hover {
+    background-color: #C75179;
+    color: white;
+}
+
+.rattingCmt {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.rattingCmt input,
+button {
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.rattingCmt button {
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.rateUserCmt {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+}
+
+.numberRate {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #C75179;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.rateUserCmt button {
+    cursor: pointer;
+    margin-top: 10px;
+    width: 150px;
+}
+
+.rateUserCmt button:hover {
+    background-color: #C75179;
+    color: white;
+}

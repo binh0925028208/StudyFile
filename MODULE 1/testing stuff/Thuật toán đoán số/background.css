@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://i.pinimg.com/564x/7c/b5/49/7cb5492889809cb8303b76b80759f0df.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    background-color: blue;
+    background-image: radial-gradient(black, red);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}

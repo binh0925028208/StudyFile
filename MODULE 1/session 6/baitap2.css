@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.web-head {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.first-box {
+    background-color: #333333;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+
+.first-box p {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.second-box {
+    background-color: #F1F1F1;
+    display: grid;
+    justify-content: center;
+}
+
+.second-box-item {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+
+
+.web-title {
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web {
+    padding: 150px 100px;
+}
+
+.web-firstbox p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-firstbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.web-second-box p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.web-second-box-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.web-second-box-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.web-third-box {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.web-forth-box {
+    background-color: #333333;
+    width: 100wh;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+@media screen and (max-width:1314px) {}
+
+@media screen and (max-width: 768px) {}

@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-family: sans-serif;
+    overflow-x: hidden;
+
+}
+
+.head {
+    background-color: #401B1A;
+    text-align: center;
+    color: aliceblue;
+    height: 30px;
+    width: 100em;
+}
+
+.head p {
+    color: #BCBCBC;
+    padding: 5px 0 5px 0;
+}
+
+/* head */
+.info,
+.search,
+.store {
+    padding: 0px 10px 22px;
+    background-color: #D3D3D3;
+    width: 1500px;
+}
+
+.info a {
+    color: black;
+}
+
+
+
+.info div {
+    display: inline-block;
+    padding-right: 110px;
+}
+
+.info div li {
+    display: inline;
+}
+
+.info-button {
+    width: 360px;
+}
+
+.info-button img {
+    float: right;
+}
+
+/* info */
+.search li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.search a {
+    color: aliceblue;
+    margin-right: 5px;
+}
+
+.search-evennumber {
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+    width: 12%;
+    height: 30px;
+    text-align: center;
+}
+
+.search-oddnumber {
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    width: 12%;
+    height: 30px;
+    text-align: center;
+}
+
+/* sreach */
+
+.banner div {
+    display: inline-block;
+}
+
+.banner-item-info {
+    transform: translateY(-50px);
+    float: center;
+}
+
+.banner-item-info li {
+    margin-top: 30px;
+}
+
+.banner-item img {
+    width: 1300px;
+}
+
+/* banner */
+
+.store figure {
+    display: inline-block;
+    width: 15.5%;
+    text-align: left;
+    text-overflow: ellipsis;
+    transition: 0.5s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.store figure img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.store figure figcaption {
+    margin-top: 15px;
+    color: #333;
+    display: -webkit-box;
+    line-height: 1.3;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.store figure:not(:last-child) {
+    margin-right: 15px;
+}
+
+.store a img {
+    height: 30px;
+    width: 30px;
+}
+
+.store li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.store figure:hover {
+    transform: scale(1.05);
+}
+
+.store-bestseller p {
+    background-color: rgb(228, 70, 70);
+    background-size: cover;
+    height: 30px;
+    font-size: 20px;
+    color: azure;
+    text-align: center;
+}
+
+/* store */
+.news {
+    background-color: #BCBCBC;
+    height: 180px;
+}
+
+.news-banner {
+    display: inline-block;
+    width: 30%;
+    background-color: black;
+    height: 100%;
+    margin-right: 40px;
+}
+
+.news-banner h2 {
+    color: #fff;
+    text-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.news-banner button {
+    padding: 16px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.news-banner button:hover {
+    transform: scale(1.05);
+    color: #333;
+    background-color: #fff;
+}
+
+.news img {
+    float: right;
+    margin-top: 10px;
+}
+
+/* news */
+.video {
+    background-color: #3d83d7;
+    height: 250px;
+    color: aliceblue;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+
+
+.video-text {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 25px;
+    line-height: 1.0;
+}
+
+.video-title h2 {
+    color: #fff;
+    text-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+    font-size: 35px;
+}
+
+.video-title button {
+    padding: 16px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: red;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.video-button {
+    margin-top: 20px;
+}
+
+.video-title button:hover {
+    transform: scale(1.05);
+    color: #333;
+    background-color: #fff;
+}
+
+.video iframe {
+    display: inline-block;
+    float: right;
+    transform: translateY(-200px);
+    margin-right: 10px;
+}
+
+/* video */
+footer {
+    background-color: #D3D3D3;
+    width: 100em;
+    height: 200px;
+}

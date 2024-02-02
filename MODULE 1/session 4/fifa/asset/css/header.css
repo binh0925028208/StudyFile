@@ -1,0 +1,41 @@
+.header {
+    background-color: #034576;
+    padding: 10px 20px;
+}
+
+.header_logo,
+.header_nav {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header_logo img {
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.header_logo i,
+.header_nav ul li {
+    color: #fff;
+}
+
+.header_logo i {
+    padding: 8px 9px;
+    background-color: #296fa4;
+    border-radius: 50%;
+}
+
+.header_nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+    font-weight: 300;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.header_nav ul li:hover {
+    opacity: 1;
+}

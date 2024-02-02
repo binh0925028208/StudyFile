@@ -1,0 +1,26 @@
+.bookNow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 100px;
+}
+
+.bookBtn {
+    border-radius: 8px;
+    background-color: #0284C7;
+    color: #FFF;
+    width: 161px;
+    height: 52px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 140% */
+}
+
+.bookBtn:hover {
+    color: #0284C7;
+    background-color: #FFF;
+    border: 1px solid #ddd;
+}

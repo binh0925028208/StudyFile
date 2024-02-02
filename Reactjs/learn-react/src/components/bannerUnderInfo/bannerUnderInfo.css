@@ -1,0 +1,54 @@
+.banner2 {
+    display: flex;
+    gap: 170px;
+    padding: 130px 160px;
+}
+
+.banner2Info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 55px 0;
+}
+
+.banner2Info h3 {
+    width: 383.406px;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    /* 142.857% */
+    text-align: left;
+}
+
+.banner2Info p {
+    width: 427.879px;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+    text-align: left;
+}
+
+.checkText {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.banner2TinyText {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.banner2TinyText img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}

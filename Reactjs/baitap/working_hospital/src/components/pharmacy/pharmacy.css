@@ -1,0 +1,72 @@
+.pharmacy {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.pharmacyMap {
+    display: flex;
+    gap: 30px;
+    flex-flow: row wrap;
+}
+
+.pharmacyShowBtn {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.pharmacyShowBtn button {
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pharmacyShowBtn button:hover {
+    background-color: #b9cadf;
+    color: white;
+}
+
+.pharmacyMapDetail {
+    display: flex;
+    width: 270px;
+    flex-direction: column;
+    gap: 30px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.pharmacyMapDetail:hover {
+    cursor: pointer;
+    transform: scale(1.09);
+    transition: 0.5s;
+}
+
+.locationDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #71717A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.locationDetail p {
+    display: flex;
+    gap: 10px;
+
+}

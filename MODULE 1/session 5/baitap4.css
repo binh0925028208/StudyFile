@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #b22828;
+}
+
+.dongho {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #452723;
+    background-color: #df8f8f;
+    overflow: hidden;
+}
+
+.kimgio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 50px;
+    background-color: rgb(120, 90, 35);
+    transform-origin: bottom center;
+    transform: translate(-50%, -100%) rotate(0deg);
+    animation: rotateHour 3600s linear infinite;
+}
+
+.kimphut {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 70px;
+    background-color: #867676;
+    transform-origin: bottom center;
+    transform: translate(-50%, -100%) rotate(0deg);
+    animation: rotateMinute 30s linear infinite;
+}
+
+.chamtron {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #773737;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes rotateHour {
+    from {
+        transform: translate(-50%, -100%) rotate(0deg);
+    }
+
+    to {
+        transform: translate(-50%, -100%) rotate(360deg);
+    }
+}
+
+@keyframes rotateMinute {
+    from {
+        transform: translate(-50%, -100%) rotate(0deg);
+    }
+
+    to {
+        transform: translate(-50%, -100%) rotate(360deg);
+    }
+}

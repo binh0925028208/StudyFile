@@ -1,0 +1,23 @@
+.flex-container {
+    background-color: rgb(233, 187, 80);
+    border-radius: 2px;
+    height: 400px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.flex-item {
+    background-color: rgb(86, 86, 212);
+    border-radius: 20px;
+    border: 1px solid;
+    height: 90px;
+    width: 90px;
+    color: azure;
+    flex-grow: 1;
+    display: flex;
+
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My todoList</title>
+    <link rel="stylesheet" href="./todo.css" />
+  </head>
+  <body>
+    <div class="jobList">
+      <h3>My To Do List</h3>
+      <form action="">
+        <input id="jobText" type="text" />
+        <button type="submit" onclick="newJob(event)">thêm vào</button>
+      </form>
+      <ul id="myJobList">
+        <li>
+          <div class="job_detail">
+            <p>hit the gym</p>
+            <div>
+              <button onclick="deleteJob()">delete</button>
+              <button onclick="updateJob()">update</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <script src="./todo.js"></script>
+  </body>
+</html>

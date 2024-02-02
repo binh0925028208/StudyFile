@@ -1,0 +1,28 @@
+ul li {
+    list-style: none;
+}
+
+.jobList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background-color: #ddd;
+    height: 100px;
+
+}
+
+.job_detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: cadetblue;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+.job_detail p {
+    width: 250px;
+}

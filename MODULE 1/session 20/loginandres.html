@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login and res</title>
+  </head>
+  <body>
+    <form
+      onsubmit="handleRegister(event)"
+      style="
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 450px;
+        padding: 10px 10px;
+      "
+    >
+      <input type="email" id="email" placeholder="your email" />
+      <input type="text" id="id" placeholder="your id" />
+      <input type="password" id="pass" placeholder="password" />
+      <button type="submit">SUBMIT</button>
+    </form>
+    <form
+      onsubmit="handleLogin(event)"
+      style="
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 450px;
+        padding: 10px 10px;
+      "
+    >
+      <input type="emailogin" id="userEmail" placeholder="your email" />
+      <input type="password" id="userPass" placeholder="password" />
+      <button type="submit">login</button>
+    </form>
+    <button onclick="handleLogout()">Đăng xuất</button>
+    <script src="./loginandres.js"></script>
+  </body>
+</html>
